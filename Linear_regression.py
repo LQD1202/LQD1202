@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 A = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 B = [2, 1, 3, 6, 9, 11, 13, 15, 17, 20]
 
-
 plt.plot(A,B, 'ro')
 
 A = np.array([A]).T
