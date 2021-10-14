@@ -20,8 +20,5 @@ x = np.linalg.inv(D.transpose().dot(D)).dot(D.transpose().dot(B))
 x0 = np.array([1, 12]).T
 y0 = x0*x[0][0] + x[1][0]
 
-
-
-
 plt.plot(x0,y0)
 plt.show()
